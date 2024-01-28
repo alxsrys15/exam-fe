@@ -2,9 +2,10 @@ import '@mantine/core/styles.css';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import { MantineProvider } from '@mantine/core';
-import { theme } from '../theme';
+import { theme } from '../../theme';
+import { trpc } from '@/utils/trpc';
 
-export default function App({ Component, pageProps }: AppProps) {
+const App = ({ Component, pageProps }: AppProps) => {
   return (
     <MantineProvider theme={theme}>
       <Head>
@@ -19,3 +20,5 @@ export default function App({ Component, pageProps }: AppProps) {
     </MantineProvider>
   );
 }
+
+export default trpc.withTRPC(App)
