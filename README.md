@@ -18,3 +18,6 @@ This template comes with the following features:
 * Initiate prisma using **npx prisma migrate dev --name init**
 * Generate prisma client dependency using **npx prisma generate**
 * Start the development server using **npm run dev**
+
+## Notes
+Editing and Deletion of referrals is not implemented as the instructions of the exam requires only the Create Referral functionality
