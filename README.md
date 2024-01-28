@@ -6,12 +6,10 @@ If you want to use app router instead, see [next-app-template](https://github.co
 ## Features
 
 This template comes with the following features:
-
-- [PostCSS](https://postcss.org/) with [mantine-postcss-preset](https://mantine.dev/styles/postcss-preset)
+- [NextJS](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Storybook](https://storybook.js.org/)
-- [Jest](https://jestjs.io/) setup with [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
-- ESLint setup with [eslint-config-mantine](https://github.com/mantinedev/eslint-config-mantine)
+- [Prisma](https://www.prisma.io/) - ORM
+- tRPC (https://trpc.io/) - APIs
 
 ## npm scripts
 
