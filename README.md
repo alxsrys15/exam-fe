@@ -10,27 +10,11 @@ This template comes with the following features:
 - [TypeScript](https://www.typescriptlang.org/)
 - [Prisma](https://www.prisma.io/) - ORM
 - tRPC (https://trpc.io/) - APIs
+- MySQL - Database
 
-## npm scripts
+## Steps for initializing
 
-### Build and dev scripts
-
-- `dev` – start dev server
-- `build` – bundle application for production
-- `export` – exports static website to `out` folder
-- `analyze` – analyzes application bundle with [@next/bundle-analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
-
-### Testing scripts
-
-- `typecheck` – checks TypeScript types
-- `lint` – runs ESLint
-- `prettier:check` – checks files with Prettier
-- `jest` – runs jest tests
-- `jest:watch` – starts jest watch
-- `test` – runs `jest`, `prettier:check`, `lint` and `typecheck` scripts
-
-### Other scripts
-
-- `storybook` – starts storybook dev server
-- `storybook:build` – build production storybook bundle to `storybook-static`
-- `prettier:write` – formats all files with Prettier
+* Create a database in MySQL named **exam**
+* Install all dependencies using **npm install**
+* Initiate prisma using **npx prisma migrate dev --name init**
+* Generate prisma client dependency using **npx prisma generate**
