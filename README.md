@@ -13,6 +13,8 @@ This template comes with the following features:
 ## Steps for initializing
 
 * Create a database in MySQL named **exam**
+* Create and .env file - Please use the .env.sample file for reference
 * Install all dependencies using **npm install**
 * Initiate prisma using **npx prisma migrate dev --name init**
 * Generate prisma client dependency using **npx prisma generate**
+* Start the development server using **npm run dev**
