@@ -1,8 +1,5 @@
 # Front-end Exam
 
-This is a template for [Next.js](https://nextjs.org/) pages router + [Mantine](https://mantine.dev/).
-If you want to use app router instead, see [next-app-template](https://github.com/mantinedev/next-app-template).
-
 ## Features
 
 This template comes with the following features:
@@ -10,6 +7,7 @@ This template comes with the following features:
 - [TypeScript](https://www.typescriptlang.org/)
 - [Prisma](https://www.prisma.io/) - ORM
 - tRPC (https://trpc.io/) - APIs
+- Mantine UI(https://mantine.dev/) - UI Framework
 - MySQL - Database
 
 ## Steps for initializing
